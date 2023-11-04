@@ -2,10 +2,10 @@ import jax
 import jax.numpy as jnp
 import numpy as np
 import numba
-from devices import cpus, gpus
+from no_cuda_ngp_nerf.devices import cpus, gpus
 import matplotlib.pyplot as plt
 from flax.training.train_state import TrainState
-from dataset import Dataset, process_3x4_transform_matrix
+from no_cuda_ngp_nerf.dataset import Dataset, process_3x4_transform_matrix
 from typing import Optional
 import os
 

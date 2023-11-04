@@ -3,8 +3,10 @@ from flax.training.train_state import TrainState
 import jax
 import jax.numpy as jnp
 import optax
-from dataset import Dataset
-from rendering import differentiable_render, get_ray, batch_trace_rays, alpha_composite
+from no_cuda_ngp_nerf.dataset import Dataset
+from no_cuda_ngp_nerf.rendering import (
+    differentiable_render, get_ray, batch_trace_rays, alpha_composite
+)
 
 def create_train_state(
     model:nn.Module, rng, learning_rate:float, epsilon:float, weight_decay_coefficient:float

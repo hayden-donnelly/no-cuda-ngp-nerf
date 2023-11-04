@@ -13,6 +13,9 @@ RUN python3 -m pip install $NO_CACHE --upgrade pip \
     # Install jax with GPU support.
     && python3 -m pip install $NO_CACHE \
         "jax[cuda11_cudnn86]" -f $JAX_PACKAGE_URL \
+    # Jupyterlab is only required for the container.
+    && python3 -m pip install $NO_CACHE \
+        jupyterlab==4.0.5
     # Install other requirements.
     && python3 -m pip install $NO_CACHE \
         -r requirements.txt 
