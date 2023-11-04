@@ -17,6 +17,30 @@ python3 -m pip install -e .
 ```
 The ``-e`` flag will let you edit the project without having to reinstall.
 
+## Docker Environment
+
+Building image:
+```
+docker-compose build
+```
+
+Starting container/environment:
+```
+docker-compose up -d
+```
+
+Opening a shell in container:
+```
+docker-compose exec ngp bash
+```
+
+Instead of opening a shell, you can also go to http://localhost:7070/ to access a Jupyter Lab instance running inside the container.
+
+Stopping container/environment:
+```
+docker-compose down
+```
+
 ## Citations
 ```bibtex
 @article{mueller2022instant,
