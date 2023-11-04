@@ -1,6 +1,8 @@
 # no-cuda-ngp-nerf
 An educational implementation of Instant NGP NeRF using JAX and Numba instead of custom CUDA kernels.
 
+Currently a work-in-progress.
+
 ## Installation
 First clone the repository.
 ```
