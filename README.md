@@ -41,7 +41,11 @@ Stopping container/environment:
 docker-compose down
 ```
 
-## Citations
+## Acknowledgement
+
+Kwea123's [video lecture](https://www.youtube.com/live/c2t_C4-Ovss?si=PYRWj1IZP5y0nJms) and PyTorch implementation of [Instant NGP](https://github.com/kwea123/ngp_pl) were both very helpful during the development of this project.
+
+## Citation
 ```bibtex
 @article{mueller2022instant,
     author={Thomas M\"uller and Alex Evans and Christoph Schied and Alexander Keller},
