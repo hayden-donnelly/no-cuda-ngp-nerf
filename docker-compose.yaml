@@ -1,0 +1,18 @@
+services:
+  ngp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - rm:true
+    image: ngp
+    container_name: ngp
+    ports:
+      - 7070:8888
+    volumes:
+      - .:/project
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - capabilities: [gpu]

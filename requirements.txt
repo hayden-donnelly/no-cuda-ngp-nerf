@@ -1,0 +1,5 @@
+jupyterlab==4.0.5
+flax==0.7.2
+pillow==10.0.1
+matplotlib==3.7.3
+numba==0.58.0
