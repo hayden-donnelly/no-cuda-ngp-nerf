@@ -1,6 +1,20 @@
 # no-cuda-ngp-nerf
 An educational implementation of Instant NGP NeRF using JAX and Numba instead of custom CUDA kernels.
 
+## Installation
+First clone the repository.
+```
+https://github.com/hayden-donnelly/no-cuda-ngp-nerf.git
+```
+Then cd into it and install with pip.
+```
+cd no-cuda-ngp-nerf
+```
+```
+python3 -m pip install -e .
+```
+The ``-e`` flag will let you edit the project without having to reinstall.
+
 ## Citations
 ```bibtex
 @article{mueller2022instant,
