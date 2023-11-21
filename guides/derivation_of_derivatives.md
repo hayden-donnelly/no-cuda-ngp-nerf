@@ -93,3 +93,52 @@ $$
 \end{align}
 $$
 ```
+
+By an analagous derivation, one can get:
+
+## 2.
+```math
+$$
+\begin{align}
+\frac{\partial d}{\partial\sigma_0} = \delta_0[T_0T - (D - \bar{d})] \notag\\
+\end{align}
+$$
+```
+
+## 3.
+```math
+$$
+\begin{align}
+\frac{\partial o_p}{\partial\sigma_0} =&\
+    \frac{\partial o_p}{\partial\alpha_0} \cdot 
+    \frac{\partial\alpha_0}{\partial\sigma_0} + 
+    \sum_{i = 1}^N{\frac{
+        \partial o_p}{\partial\alpha_i} \cdot 
+        \frac{\partial\alpha_i}{\partial\sigma_0}
+    } \notag\\
+
+\frac{\partial o_p}{\partial\sigma_0} =&\
+    \frac{\partial o_p}{\partial\alpha_0} \cdot 
+    \frac{\partial\alpha_0}{\partial\sigma_0} + 
+    \cancel{
+        \sum_{i = 1}^N{\frac{
+            \partial o_p}{\partial\alpha_i} \cdot 
+            \frac{\partial\alpha_i}{\partial\sigma_0}
+        }
+    } \notag\\
+
+=&\ [(1 - \alpha_1) ... (1 - \alpha_n)] \cdot [\delta_0(1 - \alpha_0)] \notag\\
+
+=&\ \delta_0(1 - o_p) \notag\\
+\end{align}
+$$
+```
+
+Thus the formula for $\frac{\partial L}{\partial\sigma_0}$.
+
+Analagously, one can derive $\frac{\partial L}{\partial\sigma_i}$ for $i \in [1, N]$.
+
+## Acknowledgement
+Derivation by [Kwea123](https://github.com/kwea123).
+
+Source: [concept board](https://app.conceptboard.com/board/2hua-puao-fets-rpcd-x7no).
