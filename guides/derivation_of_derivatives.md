@@ -71,7 +71,7 @@ $$
 =&\ \delta_0[c_0 
     \underbrace{
         (1 - \alpha_0)
-    }_{\rlap{\text{$= T$\\ until the first sample point.}}} 
+    }_{\rlap{\text{$= T$ until the first sample point.}}} 
     - \overbrace{
         c_1\alpha_1(1 - \alpha_0) - ... - c_n\alpha_n(1 - \alpha_0) ... (1 - \alpha_{n - 1})
     }^{
