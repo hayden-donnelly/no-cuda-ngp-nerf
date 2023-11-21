@@ -109,7 +109,7 @@ $$
 ```math
 $$
 \begin{align}
-\frac{\partial o_p}{\partial\sigma_0} =&\
+\frac{\partial o_p}{\partial\sigma_0} &=
     \frac{\partial o_p}{\partial\alpha_0} \cdot 
     \frac{\partial\alpha_0}{\partial\sigma_0} + 
     \sum_{i = 1}^N{\frac{
@@ -117,7 +117,7 @@ $$
         \frac{\partial\alpha_i}{\partial\sigma_0}
     } \notag\\
 
-\frac{\partial o_p}{\partial\sigma_0} =&\
+\frac{\partial o_p}{\partial\sigma_0} &=
     \frac{\partial o_p}{\partial\alpha_0} \cdot 
     \frac{\partial\alpha_0}{\partial\sigma_0} + 
     \cancel{
@@ -127,9 +127,9 @@ $$
         }
     } \notag\\
 
-=&\ [(1 - \alpha_1) ... (1 - \alpha_n)] \cdot [\delta_0(1 - \alpha_0)] \notag\\
+&= [(1 - \alpha_1) ... (1 - \alpha_n)] \cdot [\delta_0(1 - \alpha_0)] \notag\\
 
-=&\ \delta_0(1 - o_p) \notag\\
+&= \delta_0(1 - o_p) \notag\\
 \end{align}
 $$
 ```
