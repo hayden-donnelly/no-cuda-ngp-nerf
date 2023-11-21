@@ -1,4 +1,5 @@
 ## Preliminaries:
+```math
 $$
 \begin{align}
 
@@ -30,11 +31,12 @@ o_p =&\ 1 - (1 - \alpha_0)(1 - \alpha_1) ... (1 - \alpha_n) \notag\\
 
 \text{Chain Rule:}&\ \frac{\partial L}{\partial\sigma_0} = 
     \frac{\partial L}{\partial c} \cdot \frac{\partial c}{\partial\sigma_0} + 
-    \frac{\partial L}{\partial d} \cdot \frac{\partial L}{\partial\sigma_0} +
-    \frac{\partial L}{\partial o_p} \cdot \frac{\partial L}{\partial\sigma_0} \notag\\
+    \frac{\partial L}{\partial d} \cdot \frac{\partial d}{\partial\sigma_0} +
+    \frac{\partial L}{\partial o_p} \cdot \frac{\partial o_p}{\partial\sigma_0} \notag\\
 
 \end{align}
 $$
+```
 
 ## 1.
 $$
