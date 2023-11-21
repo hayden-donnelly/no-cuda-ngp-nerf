@@ -40,6 +40,7 @@ $$
 
 ## 1.
 ```math
+\documentclass[12pt]
 $$
 \begin{align}
 \frac{\partial c}{\partial\sigma_0} =&\ 
