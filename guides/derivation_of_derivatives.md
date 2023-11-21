@@ -39,6 +39,7 @@ $$
 ```
 
 ## 1.
+```math
 $$
 \begin{align}
 \frac{\partial c}{\partial\sigma_0} =&\ 
@@ -86,3 +87,4 @@ $$
 
 \end{align}
 $$
+```
