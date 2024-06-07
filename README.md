@@ -3,6 +3,9 @@ An educational implementation of Instant NGP NeRF using JAX and Numba instead of
 
 Currently a work-in-progress.
 
+## Notes 
+- Checkout [derivation_of_derivatives.md](./derivation_of_derivatives.md) to see how the volume rendering derivatives are derived.
+
 ## Installation
 First clone the repository.
 ```
@@ -42,7 +45,6 @@ docker-compose down
 ```
 
 ## TODO
-- [ ] Finish writing guides.
 - [ ] Switch to a Nix development environment.
 - [ ] Add occupancy grid bitfield.
 - [ ] Add screenshot/video of a trained NeRF render.
