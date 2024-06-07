@@ -20,29 +20,18 @@ python3 -m pip install -e .
 ```
 The ``-e`` flag will let you edit the project without having to reinstall.
 
-## Docker Environment
+## Development Environment 
 
-Building image:
-```
-docker-compose build
-```
+### Docker
 
-Starting container/environment:
-```
-docker-compose up -d
-```
+- To build the docker image, use `docker-compose build`.
+- To start the docker container, use `docker-compose up -d`.
+- To open a shell inside the container, use `docker-compose exec ngp bash`.
+- To open Jupyter Lab inside the container instead of a shell, go to [http://localhost:7070/](http://localhost:7070/).
+- To stop the container, use `docker-compose down`.
 
-Opening a shell in container:
-```
-docker-compose exec ngp bash
-```
-
-Instead of opening a shell, you can also go to http://localhost:7070/ to access a Jupyter Lab instance running inside the container.
-
-Stopping container/environment:
-```
-docker-compose down
-```
+### Nix
+TODO
 
 ## TODO
 - [ ] Switch to a Nix development environment.
